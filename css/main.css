@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body-background {
+    background-color: #2D3075;
+}
+
+.navbar-css {
+    background-color: #FFBC0F;
+}
+
+ul li a {
+    text-decoration: none;
+    font-family: 'Suwannaphum';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #000000;
+    padding: 0.5rem 1rem;
+}
+
+ul li a:hover {
+    text-decoration: none;
+    font-family: 'Suwannaphum';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #2D3075;
+    padding: 0.5rem 1rem;
+}
+
+.footer-background {
+    background: #FFBC0F;
+}
+
+.img-footer {
+    width: 200px;
+    padding: 1em;
+}
+
+.text-portfolio {
+    position: absolute;
+    font-family: 'Suwannaphum';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
