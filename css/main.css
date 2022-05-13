@@ -61,4 +61,28 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+
+}
+
+/*NOSOTROS*/
+.background-main{
+    background-color: #2D3075;    
+    font-family: 'Suwannaphum';
+    color: #FFBC0F;
+    text-align: center;
+}
+h4{
+    font-family: 'Suwannaphum';
+    color: #FFFFFF;
+}
+.trayectoria{
+    color: #FFBC0F;
+    
+}
+.img-footer{
+    width: 100px;
+}
+.footer-nosotros{
+    background-color: #FFBC0F;
+    
 }
