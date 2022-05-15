@@ -61,45 +61,50 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-
 }
 
+
 /*NOSOTROS*/
-.background-main{
-    background-color: #2D3075;    
+
+.background-main {
+    background-color: #2D3075;
     font-family: 'Suwannaphum';
     color: #FFBC0F;
     text-align: center;
 }
-h4{
+
+h4 {
     font-family: 'Suwannaphum';
     color: #FFFFFF;
 }
-.trayectoria{
+
+.trayectoria {
     color: #FFBC0F;
-    
 }
-.img-footer{
+
+.img-footer {
     width: 100px;
 }
-.footer-nosotros{
+
+.footer-nosotros {
     background-color: #FFBC0F;
-    
 }
+
 
 /*CONTACTO*/
 
-.titulo-contacto{
+.titulo-contacto {
     margin-top: 30px;
     font-family: 'Suwannaphum';
-    color:#2D3075;
-    font-size:35px;
+    color: #2D3075;
+    font-size: 35px;
     text-align: center;
 }
-.invitacion-formulario{
+
+.invitacion-formulario {
     margin-top: 25px;
     font-family: 'Suwannaphum';
-    color:#2D3075;
-    font-size:25px;
+    color: #2D3075;
+    font-size: 25px;
     margin-left: 75px;
 }
