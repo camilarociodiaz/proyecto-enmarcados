@@ -43,14 +43,10 @@
             </div>
         </div>
     </nav>
-    <main>
+    <main class="background-contacto">
         <section>
-            <div>
-                <p class="titulo-contacto">
-                    No te quedes sin consultar o pedir tu presupuesto
-                </p>
                 <p class="invitacion-formulario">
-                    Envianos tu consulta y nos comunincamos con vos!!!
+                    Envianos tu consulta y nos comunincamos con vos...
                 </p>
             </div>
         </section>
@@ -58,21 +54,35 @@
 
         <section>
             <div class="m-5">
-                <label for="validationCustom01" class="form-label">Nombre y Apellido</label>
-                <input type="text" class="form-control" id="validationCustom01" placeholder="Ingrese sus datos">
-                <label for="validationCustom01" class="form-label">Número de cel</label>
-                <input type="number" class="form-control" id="validationCustom01" placeholder="Ingrese su número de teléfono" exampleFormControlInput1 " class="form-label ">Email</label>
-                <input type="email " class="form-control " id="exampleFormControlInput1 " placeholder="Ingrese su correo ">
+                <label for="validationCustom01" class="form-label"></label>
+                <input type="text" class="form-control" id="nombre "  placeholder="Nombre y Apellido">
+                <label for="validationCustom01" class="form-label"></label>
+                <input type="number" class="form-control" id="telefono" value="telefono" placeholder="Número de teléfono" exampleFormControlInput1  class="form-label "></label>
+                <label for="validationCustom01" class="form-label"></label>
+                <input type="email " class="form-control " id="email" valeu="email" placeholder="Correo electrónico">  
+                </div> 
               </div>
               <div class="m-5 ">
-                <label for="exampleFormControlTextarea1 " class="form-label ">Por favor escriba su consulta</label>
-                <textarea class="form-control " id="exampleFormControlTextarea1 " rows="3 "  placeholder="Escriba aqui "></textarea>
+                <label for="exampleFormControlTextarea1 " class="form-label "></label>
+                <textarea class="form-control " id="consulta" valeu="consulta"  rows="3 "  placeholder="Escriba aqui "></textarea>
               </div>
               <div class="m-5 ">
-                <button class="btn btn-primary " type="submit ">Enviar</button>
+                <button id="enviarCorreo" type="button" class="btn btn-primary " type="submit " valeu="enviar">Enviar</button>
               </div>
         </section>
-    
+    <script>
+        const btnEnvio = document.getElementById('enviarCorreo')
+
+        btnEnvio.addEventListener('click', function (e) {
+            e.preventDefault();
+            const Nombre = document.getElementById ('nombre').valeu;
+            const Telefono = document.getElementById ('telefono').valeu;
+            const Email = document.getElementById ('email').valeu;
+            const Consulta = document.getElementById ('consulta').valeu;
+            window.location.href='analiaribero@hotmail.com'?
+        });
+
+    </script>
     </main>
 
 

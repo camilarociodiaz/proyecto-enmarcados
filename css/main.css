@@ -140,8 +140,20 @@ body {
 
 h4 {
     font-family: 'Suwannaphum';
-    color: #FFFFFF;
+    color:black;
 }
+
+.card-nosotros{
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+
 
 .trayectoria {
     color: #FFBC0F;
@@ -150,18 +162,13 @@ h4 {
 
 /*CONTACTO*/
 
-.titulo-contacto {
-    margin-top: 30px;
-    font-family: 'Suwannaphum';
-    color: #2D3075;
-    font-size: 35px;
-    text-align: center;
+.background-contacto{
+    background-color: #2D3075;
 }
-
 .invitacion-formulario {
     margin-top: 25px;
     font-family: 'Suwannaphum';
-    color: #2D3075;
+    color: white;
     font-size: 25px;
     margin-left: 75px;
 }
