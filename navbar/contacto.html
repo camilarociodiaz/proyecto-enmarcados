@@ -53,22 +53,24 @@
 
 
         <section>
+            
             <div class="m-5">
                 <label for="validationCustom01" class="form-label"></label>
-                <input type="text" class="form-control" id="nombre "  placeholder="Nombre y Apellido">
+                <input type="text" class="form-control" id="nombre " name="nombre"  placeholder="Nombre y Apellido">
                 <label for="validationCustom01" class="form-label"></label>
-                <input type="number" class="form-control" id="telefono" value="telefono" placeholder="Número de teléfono" exampleFormControlInput1  class="form-label "></label>
+                <input type="number" class="form-control" id="telefono" name="Telefono" placeholder="Telefono" exampleFormControlInput1  class="form-label "></label>
                 <label for="validationCustom01" class="form-label"></label>
-                <input type="email " class="form-control " id="email" valeu="email" placeholder="Correo electrónico">  
+                <input type="email " class="form-control " id="email" name="email" placeholder="Correo electrónico">  
                 </div> 
               </div>
               <div class="m-5 ">
                 <label for="exampleFormControlTextarea1 " class="form-label "></label>
-                <textarea class="form-control " id="consulta" valeu="consulta"  rows="3 "  placeholder="Escriba aqui "></textarea>
+                <textarea class="form-control " id="consulta" name="consulta"  rows="3 "  placeholder="Escriba aqui "></textarea>
               </div>
               <div class="m-5 ">
-                <button id="enviarCorreo" type="button" class="btn btn-primary " type="submit " valeu="enviar">Enviar</button>
+                <button id="enviarCorreo" type="button" class="btn btn-primary " type="submit " name="enviarCorreo">Enviar</button>
               </div>
+            
         </section>
     <script>
         const btnEnvio = document.getElementById('enviarCorreo')
@@ -79,7 +81,7 @@
             const Telefono = document.getElementById ('telefono').valeu;
             const Email = document.getElementById ('email').valeu;
             const Consulta = document.getElementById ('consulta').valeu;
-            window.location.href='analiaribero@hotmail.com'?
+            window.location.href='analiaribero@hotmail.com?'
         });
 
     </script>
@@ -90,7 +92,7 @@
 
  <footer>
 
-    <div class="footer-display ">
+    <div class="footer-display">
         <div>
             <img class="img-footer " src="../media/logoEnmarcados.svg " alt=" ">
              </div>
