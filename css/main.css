@@ -95,6 +95,17 @@ body {
     font-style: normal;
 }
 
+.texto-portfolio-index {
+    font-size: 6rem;
+    font-family: 'Suwannaphum';
+    font-style: normal;
+    font-weight: 900;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
 
 /*SECCIÓN SLIDER*/
 
@@ -153,31 +164,31 @@ body {
 
 h4 {
     font-family: 'Suwannaphum';
-    color:black;
+    color: white;
 }
 
-.card-nosotros{
+.card-nosotros {
     display: inline-block;
     flex-direction: row;
     justify-content: space-between;
 }
-.card{
+
+.card {
     margin-top: 40px;
     margin-bottom: 40px;
-    
 }
 
-
 .trayectoria {
-    color: #FFBC0F;
+    color: #FCFB2D;
 }
 
 
 /*CONTACTO*/
 
-.background-contacto{
+.background-contacto {
     background-color: #2D3075;
 }
+
 .invitacion-formulario {
     margin-top: 25px;
     font-family: 'Suwannaphum';
@@ -190,7 +201,7 @@ h4 {
 /*GRADIENT*/
 
 body {
-    background: linear-gradient(to bottom, #B721FF, #2AF598, #fec051, #FEE140, #FA709A);
+    background: linear-gradient(to bottom, #B721FF, #0f24ddea, #FCFB2D, #FCFB2D, #FA709A);
     background-repeat: no-repeat;
 }
 
@@ -201,7 +212,7 @@ body:before {
     bottom: 0;
     width: 100%;
     z-index: -1;
-    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.2), #21D4FD 75%);
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.2), #8123AB 75%);
 }
 
 
@@ -396,10 +407,10 @@ footer {
     font-size: 32px;
     line-height: 58px;
     color: #FFFAF4;
-    position: absolute;
-    left: 40%;
 }
 
 .button-portfolio {
     padding: 10%;
+    display: flex;
+    justify-content: center;
 }
