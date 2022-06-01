@@ -156,7 +156,6 @@ body {
 /*NOSOTROS*/
 
 .background-main {
-    background-color: #2D3075;
     font-family: 'Suwannaphum';
     color: #FFBC0F;
     text-align: center;
@@ -185,10 +184,6 @@ h4 {
 
 /*CONTACTO*/
 
-.background-contacto {
-    background-color: #2D3075;
-}
-
 .invitacion-formulario {
     margin-top: 25px;
     font-family: 'Suwannaphum';
@@ -213,6 +208,13 @@ body:before {
     width: 100%;
     z-index: -1;
     background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.2), #8123AB 75%);
+}
+
+#container {
+    margin: 80px 20%;
+    padding: 30px 60px;
+    border-radius: 20px;
+    box-shadow: 0 3px 26px 0 rgba(0, 0, 0, 0.3);
 }
 
 
@@ -413,4 +415,19 @@ footer {
     padding: 10%;
     display: flex;
     justify-content: center;
+}
+
+.button-pink-form {
+    background: #FFFAF4;
+    border-radius: 15px;
+    padding: 0.7rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-family: 'Suwannaphum';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #DC9BD5;
+    border-color: grey;
+    box-shadow: 0 3px 26px 0 rgba(0, 0, 0, 0.3);
 }
