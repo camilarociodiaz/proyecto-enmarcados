@@ -227,6 +227,12 @@ footer {
     bottom: 0;
 }
 
+.redes-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .footer-display {
     display: inline-flex;
     flex-direction: row;
@@ -243,6 +249,14 @@ footer {
 
 .footer-nosotros {
     background-color: #FFBC0F;
+}
+
+.texto-footer {
+    font-family: 'Suwannaphum';
+    align-content: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
 }
 
 
