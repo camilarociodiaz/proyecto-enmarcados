@@ -6,10 +6,6 @@
 
 /* inicio */
 
-.body-background {
-    background-color: #2D3075;
-}
-
 .navbar-css {
     background-color: #FFBC0F;
 }
@@ -32,6 +28,51 @@ ul li a:hover {
     font-size: 1.1rem;
     color: #2D3075;
     padding: 0.5rem 1rem;
+}
+
+
+/* NAVBAR 2 */
+
+
+/*NavBar*/
+
+.container-fluid {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-toggler {
+    border: none;
+    margin-left: 1.25rem;
+}
+
+.nav-logo {
+    margin-left: 0.57rem;
+}
+
+.logo-navbar {
+    margin-right: 10vmax;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.nav-sections-container {
+    font-size: 1.25rem;
+}
+
+.nav-item-left {
+    margin-left: 2rem;
+}
+
+.nav-container {
+    position: relative;
+    z-index: 2;
+    /* Para que quede por encima del owl carousel*/
 }
 
 .img-footer {
@@ -60,12 +101,13 @@ body {
 #titulo-texto {
     font-family: 'Suwannaphum';
     color: #FFFFFF;
-    font-size: 200%;
+    font-size: 10vmax;
     text-align: center;
     position: absolute;
     top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
+    padding: 1rem;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -95,7 +137,7 @@ body {
 }
 
 .texto-portfolio-index {
-    font-size: 6rem;
+    font-size: 7vmax;
     font-family: 'Suwannaphum';
     font-style: normal;
     font-weight: 900;
@@ -210,10 +252,19 @@ body:before {
 }
 
 #container {
-    margin: 80px 20%;
-    padding: 30px 60px;
+    margin: 10%;
+    padding: 2rem;
     border-radius: 20px;
-    box-shadow: 0 3px 26px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 3px 26px 0 rgb(0 0 0 / 30%);
+}
+
+@media (min-width: 20rem) {
+    #container {
+        margin: 3%;
+        padding: 0.5rem;
+        border-radius: 20px;
+        box-shadow: 0 3px 26px 0 rgb(0 0 0 / 30%);
+    }
 }
 
 
