@@ -1,14 +1,26 @@
-<svg width="148" height="107" viewBox="0 0 148 107" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="11.7021" cy="11.7021" r="11.7021" fill="#724E74"/>
-<circle cx="53.1097" cy="11.7021" r="11.7021" fill="#724E74"/>
-<circle cx="94.5174" cy="11.7021" r="11.7021" fill="#724E74"/>
-<circle cx="135.925" cy="11.7021" r="11.7021" fill="#724E74"/>
-<circle cx="11.7021" cy="53.1098" r="11.7021" fill="#724E74"/>
-<circle cx="53.1097" cy="53.1098" r="11.7021" fill="#724E74"/>
-<circle cx="94.5174" cy="53.1098" r="11.7021" fill="#724E74"/>
-<circle cx="135.925" cy="53.1098" r="11.7021" fill="#724E74"/>
-<circle cx="11.7021" cy="94.5173" r="11.7021" fill="#724E74"/>
-<circle cx="53.1097" cy="94.5173" r="11.7021" fill="#724E74"/>
-<circle cx="94.5174" cy="94.5173" r="11.7021" fill="#724E74"/>
-<circle cx="135.925" cy="94.5173" r="11.7021" fill="#724E74"/>
+<svg width="95" height="96" viewBox="0 0 95 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="7.53049" cy="7.53049" r="7.53049" fill="#FF0090"/>
+<circle cx="34.1768" cy="7.53049" r="7.53049" fill="#FF0090"/>
+<circle cx="60.8232" cy="7.53049" r="7.53049" fill="#FF0090"/>
+<circle cx="87.4695" cy="7.53049" r="7.53049" fill="#FF0090"/>
+<circle cx="7.53049" cy="34.1768" r="7.53049" fill="#FF0090"/>
+<circle cx="34.1768" cy="34.1768" r="7.53049" fill="#FF0090"/>
+<circle cx="60.8232" cy="34.1768" r="7.53049" fill="#FF0090"/>
+<circle cx="87.4695" cy="34.1768" r="7.53049" fill="#FF0090"/>
+<circle cx="7.53049" cy="60.8232" r="7.53049" fill="#FF0090"/>
+<circle cx="34.1768" cy="60.8232" r="7.53049" fill="#FF0090"/>
+<circle cx="60.8232" cy="60.8232" r="7.53049" fill="#FF0090"/>
+<circle cx="87.4695" cy="60.8232" r="7.53049" fill="#FF0090"/>
+<circle cx="7.53049" cy="34.5581" r="7.53049" fill="#FF0090"/>
+<circle cx="34.1768" cy="34.5581" r="7.53049" fill="#FF0090"/>
+<circle cx="60.8232" cy="34.5581" r="7.53049" fill="#FF0090"/>
+<circle cx="87.4695" cy="34.5581" r="7.53049" fill="#FF0090"/>
+<circle cx="7.53049" cy="61.2043" r="7.53049" fill="#FF0090"/>
+<circle cx="34.1768" cy="61.2043" r="7.53049" fill="#FF0090"/>
+<circle cx="60.8232" cy="61.2043" r="7.53049" fill="#FF0090"/>
+<circle cx="87.4695" cy="61.2043" r="7.53049" fill="#FF0090"/>
+<circle cx="7.53049" cy="87.8507" r="7.53049" fill="#FF0090"/>
+<circle cx="34.1768" cy="87.8507" r="7.53049" fill="#FF0090"/>
+<circle cx="60.8232" cy="87.8507" r="7.53049" fill="#FF0090"/>
+<circle cx="87.4695" cy="87.8507" r="7.53049" fill="#FF0090"/>
 </svg>
