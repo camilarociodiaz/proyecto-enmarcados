@@ -22,11 +22,12 @@ h1 {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+    margin-left: 1.3rem;
 }
 
 .col {
     width: calc(25% - 2rem);
-    margin: 1rem;
+    margin: 1.2rem;
     cursor: pointer;
 }
 
