@@ -26,7 +26,7 @@ ul li a:hover {
     font-style: normal;
     font-weight: 700;
     font-size: 1.1rem;
-    color: #2D3075;
+    color: #B721FF;
     padding: 0.5rem 1rem;
 }
 
@@ -54,6 +54,7 @@ ul li a:hover {
 
 .logo-navbar {
     margin-right: 10vmax;
+    color: #000000;
 }
 
 .navbar-toggler:focus {
