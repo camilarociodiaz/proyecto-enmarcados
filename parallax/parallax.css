@@ -138,11 +138,15 @@ body {
     transform: translateY(calc( ( var(--ty) * -3)));
 }
 
-@media (min-width: 300px) {
-    .c-section__box--4 {
-        transform: translateY(calc( ( var(--ty) * 3)));
-    }
-    .c-section__box--5 {
-        transform: translateY(calc( ( var(--ty) * -3)));
+@media (max-width: 1000px) {
+    .c-section__boxs {
+        display: flex;
+        width: 100%;
+        left: -150px;
+        align-items: center;
+        height: 85vh;
+        position: relative;
+        flex-direction: row;
+        justify-content: flex-start;
     }
 }
