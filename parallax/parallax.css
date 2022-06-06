@@ -102,7 +102,6 @@
         margin: 0px auto;
     }
     .c-section__boxs {
-        left: -130px;
         display: flex;
         width: 100%;
         align-items: center;
@@ -121,7 +120,7 @@
         width: 40px;
         height: 35px;
         background-image: url(../media/figuras/polygon-big-xs.svg);
-        transform: translateY(calc( ( var(--ty) * -0.3)));
+        transform: translateY(calc( ( var(--ty) * -1)));
     }
     .c-section__box--3 {
         width: 40px;
@@ -133,7 +132,7 @@
         width: 40px;
         height: 40px;
         background-image: url(../media/figuras/circulos-xs.svg);
-        transform: translateY(calc( ( var(--ty) * 2.5)));
+        transform: translateY(calc( ( var(--ty) * 2)));
     }
     .c-section__box--5 {
         width: 40px;
