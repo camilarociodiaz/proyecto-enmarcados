@@ -142,11 +142,40 @@ body {
     .c-section__boxs {
         display: flex;
         width: 100%;
-        left: -150px;
         align-items: center;
-        height: 85vh;
+        height: 100vh;
         position: relative;
         flex-direction: row;
         justify-content: flex-start;
+    }
+    .c-section__box--1 {
+        width: 40px;
+        height: 42px;
+        background-image: url(../media/figuras/triangulos-xs.svg);
+        transform: translateY(calc( ( var(--ty) * -4)));
+    }
+    .c-section__box--2 {
+        width: 40px;
+        height: 35px;
+        background-image: url(../media/figuras/polygon-big-xs.svg);
+        transform: translateY(calc( ( var(--ty) * 1)));
+    }
+    .c-section__box--3 {
+        width: 40px;
+        height: 35px;
+        background-image: url(../media/figuras/Polygon-small-xs.svg);
+        transform: translateY(calc( ( var(--ty) * 2.5)));
+    }
+    .c-section__box--4 {
+        width: 40px;
+        height: 40px;
+        background-image: url(../media/figuras/circulos-xs.svg);
+        transform: translateY(calc( ( var(--ty) * 3)));
+    }
+    .c-section__box--5 {
+        width: 40px;
+        height: 35px;
+        background-image: url(../media/figuras/polygon-big-xs.svg);
+        transform: translateY(calc( ( var(--ty) * -3)));
     }
 }
