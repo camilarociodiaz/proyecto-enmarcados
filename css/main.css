@@ -258,6 +258,16 @@ h4 {
     color: #FCFB2D;
 }
 
+#link-insta-nosotros {
+    color: #B721FF;
+}
+
+.instagram-nosotros {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 
 /*CONTACTO*/
 
@@ -360,6 +370,7 @@ footer {
 
 .social-buttons__button {
     margin: 10px 5px 0;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 .social-button {
