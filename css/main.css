@@ -161,7 +161,7 @@ body {
 }
 
 .texto-portfolio-index {
-    font-size: 7vmax;
+    font-size: 6vmax;
     font-family: 'Suwannaphum';
     font-style: normal;
     font-weight: 900;
@@ -272,11 +272,11 @@ h4 {
 /*CONTACTO*/
 
 .invitacion-formulario {
-    margin-top: 25px;
+    margin-top: 1rem;
+    text-align: center;
     font-family: 'Suwannaphum';
     color: white;
     font-size: 25px;
-    margin-left: 75px;
 }
 
 
@@ -543,4 +543,20 @@ footer {
     color: #DC9BD5;
     border-color: grey;
     box-shadow: 0 3px 26px 0 rgba(0, 0, 0, 0.3);
+}
+
+
+/*CURSOS*/
+
+.card-cursos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.card-title {
+    color: #FFBC0F;
+    font-size: 1.3rem;
 }
