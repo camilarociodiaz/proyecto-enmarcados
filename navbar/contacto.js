@@ -1,3 +1,4 @@
+
 const btnEnvio = document.getElementById("enviarCorreo");
 
 btnEnvio.addEventListener("click", function (e) {
@@ -11,9 +12,9 @@ btnEnvio.addEventListener("click", function (e) {
 
   let data = {
 
-    service_id: "service_v8t3ljf",
-    template_id: "template_iuhey2q",
-    user_id: "LUa8AoDCOCqOwT-eC",//Acount---> Api Keys---> public Key
+    service_id: "service_czx1vqb",
+    template_id: "template_otd335q",
+    user_id: "5JA8qDtV9cxc1XJzK",//Acount---> Api Keys---> public Key
     template_params: {
       from_name: Nombre,
       from_number: Telefono,
@@ -22,31 +23,33 @@ btnEnvio.addEventListener("click", function (e) {
     },
   };
 
+  
   fetch("https://api.emailjs.com/api/v1.0/email/send", {
     method: "POST",
     body: JSON.stringify(data),
     headers: {
-      "Content-type": "application/json; charset=UTF-8",
+        "Content-type": "application/json; charset=UTF-8",
     },
-  })
-    .then((response) => {
-      Toastify({
+})
+.then((response) => {
+    Toastify({
         text: "Mensaje enviado con exito!",
         className: "info",
         style: {
-          background: "#a4de02",
+            background: "#a4de02",
         },
-      }).showToast();
-    })
-    .catch((err) => {
-      console.error(err);
-      Toastify({
+    }).showToast();
+})
+.catch((err) => {
+    console.error(err);
+    Toastify({
         text: "No se puedo enviar!",
         className: "info",
         style: {
-          background: "red",
+            background: "red",
         },
-      }).showToast();
-    });
+    }).showToast();
 });
+});
+
 

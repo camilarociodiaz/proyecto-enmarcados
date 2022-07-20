@@ -13,9 +13,9 @@ btnEnvio.addEventListener("click", function(e) {
 
     let data = {
 
-        service_id: "service_v8t3ljf",
-        template_id: "template_iuhey2q",
-        user_id: "LUa8AoDCOCqOwT-eC", //Acount---> Api Keys---> public Key
+        service_id: "service_czx1vqb",
+        template_id: "template_9npleqp",
+        user_id: "5JA8qDtV9cxc1XJzK", //Acount---> Api Keys---> public Key
         template_params: {
             from_name: Nombre,
             from_number: Telefono,
