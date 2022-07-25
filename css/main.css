@@ -545,6 +545,20 @@ footer {
     box-shadow: 0 3px 26px 0 rgba(0, 0, 0, 0.3);
 }
 
+.button-pink-presupuesto {
+    background: #FFFAF4;
+    border-radius: 15px;
+    padding: 0.7rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-family: 'Suwannaphum';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #DC9BD5;
+    border-color: grey;
+    box-shadow: 0 3px 26px 0 rgba(0, 0, 0, 0.3);
+}
 
 /*CURSOS*/
 
@@ -560,3 +574,11 @@ footer {
     color: #FFBC0F;
     font-size: 1.3rem;
 }
+
+.display-enmarcado {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
