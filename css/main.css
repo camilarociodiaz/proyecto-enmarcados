@@ -545,7 +545,7 @@ footer {
     box-shadow: 0 3px 26px 0 rgba(0, 0, 0, 0.3);
 }
 
-.button-pink-presupuesto {
+button .button-pink-presupuesto {
     background: #FFFAF4;
     border-radius: 15px;
     padding: 0.7rem;
@@ -580,5 +580,6 @@ footer {
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
+
 }
 
